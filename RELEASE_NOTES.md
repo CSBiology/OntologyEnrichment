@@ -1,4 +1,4 @@
-﻿﻿### 0.0.1 (Released 2022-3-8)
+﻿﻿
+### 0.0.1 (Released 2022-3-9)
 
-* Additions:
-    * init
+  - inital release
