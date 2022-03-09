@@ -16,7 +16,7 @@ After data annotation you can perform an gene set enrichment analysis (GSEA) to 
 ### Prerequisite 
   - .NET SDK >= 6.0.0
 
-With a shell of your choice navigate to the OntologyEnrichent directory and either call `OntologyEnrichment.exe annotate <options>` or `OntologyEnrichment.exe enrich <options>`.
+Download and extract the OntologyEnrichment archive from the [latest release](https://github.com/CSBiology/OntologyEnrichment/releases). With a shell of your choice navigate to the OntologyEnrichment directory and either call `OntologyEnrichment.exe annotate <options>` or `OntologyEnrichment.exe enrich <options>`.
 
 
 ## Annotation
@@ -112,10 +112,10 @@ OPTIONS:
 
 ## References
 
-  - Kevin Schneider, Lukas Weil, David Zimmer, Benedikt Venn, & Timo Mühlhaus. (2022). CSBiology/BioFSharp. Zenodo. https://doi.org/10.5281/zenodo.6335372
-  - Benedikt Venn, Lukas Weil, Kevin Schneider, David Zimmer, & Timo Mühlhaus. (2022). fslaborg/FSharp.Stats. Zenodo. https://doi.org/10.5281/zenodo.6337056 
+  - Kevin Schneider, Lukas Weil, David Zimmer, Benedikt Venn, & Timo MÃ¼hlhaus. (2022). CSBiology/BioFSharp. Zenodo. https://doi.org/10.5281/zenodo.6335372
+  - Benedikt Venn, Lukas Weil, Kevin Schneider, David Zimmer, & Timo MÃ¼hlhaus. (2022). fslaborg/FSharp.Stats. Zenodo. https://doi.org/10.5281/zenodo.6337056 
   - Usadel B, Poree F, Nagel A, Lohse M, Czedik-Eysenberg A, Stitt M (2009) A guide to using MapMan to visualize and compare Omics data in plants: a case study in the crop species, Maize. Plant Cell Environment, 32: 1211-1229
-  - Thimm O, Blaesing O, Gibon Y, Nagel A, Meyer S, Krüger P, Selbig J, Müller LA, Rhee SY and M Stitt (2004) MAPMAN: a user-driven tool to display genomics data sets onto diagrams of metabolic pathways and other biological processes. Plant J. 37(6):914-39.  
+  - Thimm O, Blaesing O, Gibon Y, Nagel A, Meyer S, KrÃ¼ger P, Selbig J, MÃ¼ller LA, Rhee SY and M Stitt (2004) MAPMAN: a user-driven tool to display genomics data sets onto diagrams of metabolic pathways and other biological processes. Plant J. 37(6):914-39.  
   - Ashburner et al. Gene ontology: tool for the unification of biology. Nat Genet. May 2000;25(1):25-9
   - The Gene Ontology resource: enriching a GOld mine. Nucleic Acids Res. Jan 2021;49(D1):D325-D334.
   - FATool
