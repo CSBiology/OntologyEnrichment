@@ -74,7 +74,7 @@ module Annotate =
 
         let reportBlank i id =
             if id = "" then 
-                printfn "Warning: identifier in line %i is empty" i
+                printfn "Warning: Identifier is empty (line %i)" i
             else
                 printfn "Warning: Could not find identifier %s (line %i)" id i
             ""
@@ -173,7 +173,7 @@ module Annotate =
 
             dataFrame
             |> Array.tail
-            |> Array.map (fun x -> 
+            |> Array.mapi (fun i x -> 
                 // if several identifiers are written in one cell, they have to be split up, annotated separately, and then be merged again afterwards
                 let identifiers = 
                     x.[colIndex].Split([|multipleIdentifierSeparator|],System.StringSplitOptions.None)
@@ -181,7 +181,7 @@ module Annotate =
                 // every annotation defined by the user is generadet using the separated identifiers
                 let annotations = 
                     annotations
-                    |> Array.mapi (fun i mapping -> 
+                    |> Array.map (fun mapping -> 
                         identifiers
                         |> Array.map (Mapping.getAnnotation mappingFile mapping multipleAnnotationSeparator i)
                         |> Array.filter (fun x -> x <> "")
