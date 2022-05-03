@@ -1,3 +1,10 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6340412.svg)](https://doi.org/10.5281/zenodo.6340412)
+
+**Cite as**
+
+Benedikt Venn & Timo Mühlhaus (2022), CSBiology/OntologyEnrichment: Release 0.0.1 (0.0.1). Zenodo. https://doi.org/10.5281/zenodo.6340412
+
+
 # OntologyEnrichment
 
 With this command line tool you can annotate _Cre_ or _AT_ identifier originating from _Chlamydomonas reinhardtii_ (genome release jgi 5.5) and 
