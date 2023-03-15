@@ -21,7 +21,7 @@ After data annotation you can perform an gene set enrichment analysis (GSEA) to 
 ## Usage
 
 ### Prerequisite 
-  - .NET SDK >= 6.0.0
+  - [.NET SDK >= 6.0.0](https://dotnet.microsoft.com/en-us/download)
 
 Download and extract the OntologyEnrichment archive from the [latest release](https://github.com/CSBiology/OntologyEnrichment/releases). With a shell of your choice navigate to the OntologyEnrichment directory and either call `OntologyEnrichment.exe annotate <options>` or `OntologyEnrichment.exe enrich <options>`.
 
@@ -55,6 +55,7 @@ OPTIONS:
                           multiple identifier separator
     --help                display this list of options.
 ```
+Example command: `OntologyEnrichment.exe annotate -i "C:\Users\<user>\Desktop\myATlist.txt" -o "C:\Users\<user>\Desktop\myATlist_annotated.txt" -c "Identifier" -t tab -s arabidopsis -a MapMandes -a trivialname`
 
 ![](img/Annotation_01.png)
 
